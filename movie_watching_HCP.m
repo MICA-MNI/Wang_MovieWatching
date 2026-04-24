@@ -27,7 +27,7 @@ base_path = '/path/to/your/project/folder';   % e.g. '/home/user/MRD_project'
  
 % Derived paths (do not edit below)
 data_path   = fullfile(base_path, 'data');
-cmap_path   = fullfile(data_path, 'colormap');
+cmap_path   = fullfile(base_path, 'colormap');
 output_path = fullfile(base_path, 'outputs');
 if ~exist(output_path, 'dir'); mkdir(output_path); end
  
